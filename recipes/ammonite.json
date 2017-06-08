@@ -1,0 +1,22 @@
+{
+    "kind": "download",
+    "name": "ammonite",
+    "downloads": {
+        "any": {
+            "url": "https://github.com/lihaoyi/Ammonite/releases/download/0.7.0/0.7.0",
+            "md5": "b51c9516686a41c072445dbbfe142e6c"
+        }
+    },
+    "version": "0.7.0",
+    "symlinks": [
+        {
+            "source": "0.7.0",
+            "link": "bin/amm",
+            "exec": true
+        }
+    ],
+    "extract": false,
+    "labels": [
+        "dev"
+    ]
+}

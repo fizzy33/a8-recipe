@@ -1,0 +1,20 @@
+{
+    "kind": "download",
+    "name": "maven",
+    "downloads": {
+        "any": {
+            "url": "http://mirrors.ibiblio.org/apache/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz",
+            "md5": "35c39251d2af99b6624d40d801f6ff02"
+        }
+    },
+    "version": "3.5.0",
+    "symlinks": [
+        {
+            "source": "bin/mvn",
+            "link": "bin/mvn"
+        }
+    ],
+    "labels": [
+        "dev"
+    ]
+}

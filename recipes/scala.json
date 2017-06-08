@@ -1,0 +1,24 @@
+{
+    "kind": "download",
+    "name": "scala",
+    "downloads": {
+        "any": {
+            "url": "https://downloads.lightbend.com/scala/2.12.2/scala-2.12.2.tgz",
+            "md5": "fb1d385259bbb9c4f22f3976ebe2b657"
+        }
+    },
+    "version": "2.12.2",
+    "symlinks": [
+        {
+            "source": "bin/scala",
+            "link": "bin/scala"
+        },
+        {
+            "source": "bin/scalac",
+            "link": "bin/scalac"
+        }
+    ],
+    "labels": [
+        "dev"
+    ]
+}

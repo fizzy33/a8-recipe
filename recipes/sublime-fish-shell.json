@@ -1,0 +1,15 @@
+{
+    "kind": "git",
+    "name": "sublime-fish-shell",
+    "gitUrl": "https://github.com/toru-hamaguchi/sublime-fish-shell.git",
+     "symlinks": [
+        {
+            "source": ".",
+            "link": "Library/Application Support/Sublime Text 3/Packages/User/sublime-fish-shell",
+            "linkRoot": "user_home"
+        }
+    ],
+   "labels": [
+        "glen"
+    ]
+}

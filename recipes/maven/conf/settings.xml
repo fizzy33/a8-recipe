@@ -1,0 +1,72 @@
+<settings>
+  <mirrors>
+    <mirror>
+      <!--This sends everything else to /all -->
+      <id>artifactory</id>
+      <mirrorOf>*</mirrorOf>
+      <url>https://accur8.artifactoryonline.com/accur8/all/</url>
+    </mirror>
+  </mirrors>
+  <profiles>
+    <profile>
+      <id>intellij_friendly</id>
+      <properties>
+        <intellij_friendly>true</intellij_friendly>
+      </properties>
+    </profile>
+    <profile>
+      <id>artifactory</id>
+      <properties>
+        <artifactory-release-url>https://accur8.artifactoryonline.com/accur8/libs-releases-local/</artifactory-release-url>
+        <artifactory-snapshot-url>https://accur8.artifactoryonline.com/accur8/libs-snapshots-local/</artifactory-snapshot-url>
+      </properties>
+      <!--Enable snapshots for the built in central repo to direct -->
+      <!--all requests to artifactory via the mirror -->
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>http://central</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>central</id>
+          <url>http://central</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+    <profile>
+      <id>skip_tests</id>
+      <properties>
+        <skipTests>true</skipTests>
+        <maven.test.skip>true</maven.test.skip>
+      </properties>
+    </profile>
+    <profile>
+        <id>downloadSources</id>
+        <properties>
+            <downloadSources>true</downloadSources>
+            <downloadJavadocs>true</downloadJavadocs>
+        </properties>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <!--make the profile active all the time -->
+    <activeProfile>artifactory</activeProfile>
+    <!--activeProfile>intellij_friendly</activeProfile-->
+    <!--activeProfile>skip_tests</activeProfile-->
+    <activeProfile>downloadSources</activeProfile>
+  </activeProfiles>
+</settings>

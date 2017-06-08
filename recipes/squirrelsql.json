@@ -1,0 +1,18 @@
+{
+    "kind": "download",
+    "name": "squirrelsql",
+    "downloads": {
+        "any": {
+            "url": "http://downloads.sourceforge.net/project/squirrel-sql/1-stable/3.7.1-plainzip/squirrelsql-3.7.1-optional.zip",
+            "md5": "13d65b769e6c0dd6b8876a26ecd85d3a"
+        }
+    },
+    "version": "3.7.1",
+    "symlinks": [
+        {
+            "source": "bin/squirrelsql",
+            "link": "bin/squirrelsql.sh"
+        }
+    ],
+    "labels": []
+}

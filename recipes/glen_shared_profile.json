@@ -1,0 +1,8 @@
+{
+    "kind": "git",
+    "name": "glen_shared_profile",
+    "gitUrl": "git@gitlab.accur8.io:glen/shared_profile.git",
+    "labels": [
+        "glen"
+    ]
+}

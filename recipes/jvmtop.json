@@ -1,0 +1,21 @@
+{
+    "kind": "download",
+    "name": "jvmtop",
+    "downloads": {
+        "any": {
+            "url": "https://github.com/patric-r/jvmtop/releases/download/0.8.0/jvmtop-0.8.0.tar.gz",
+            "md5": "99855522ed9f9ec106d2ad0d2c3d0b21"
+        }
+    },
+    "version": "0.8.0",
+    "symlinks": [
+        {
+            "source": "jvmtop.py",
+            "link": "bin/jvmtop",
+            "exec": true
+        }
+    ],
+    "labels": [
+        "server"
+    ]
+}

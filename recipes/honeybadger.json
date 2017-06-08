@@ -1,0 +1,28 @@
+{
+  "kind": "mavenrepo",
+  "name": "honeybadger",
+  "groupId": "a8",
+  "artifactId": "a8-honeybadger",
+  "version": "latest",
+  "symlinks":[
+    {
+      "source": "bin/honeybadger-build",
+      "link": "bin/honeybadger-build"
+    },{
+      "source": "bin/honeybadger-build-deploy",
+      "link": "bin/honeybadger-build-deploy"
+    },{
+      "source": "bin/honeybadger-build-version-number",
+      "link": "bin/honeybadger-build-version-number"
+    },{
+      "source": "bin/honeybadger-deploy",
+      "link": "bin/honeybadger-deploy"
+    },{
+      "source": "bin/honeybadger-local-build",
+      "link": "bin/honeybadger-local-build"
+    },{
+      "source": "bin/honeybadger-release-version-number",
+      "link": "bin/honeybadger-release-version-number"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "kind": "download",
+    "name": "scala-docs",
+    "downloads": {
+        "any": {
+          "url": "http://downloads.lightbend.com/scala/2.11.8/scala-docs-2.11.8.txz",
+          "md5": "7d8bc6cc70e15f03e6c9255415268de3"
+        }
+    },
+    "version": "2.11.8"
+}

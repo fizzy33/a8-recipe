@@ -1,0 +1,20 @@
+{
+    "kind": "download",
+    "name": "zinc",
+    "downloads": {
+        "any": {
+            "url": "http://downloads.typesafe.com/zinc/0.3.13/zinc-0.3.13.tgz",
+            "md5": "6b0516c1763c75bc673be281e7464df3"
+        }
+    },
+    "version": "0.3.13",
+    "symlinks": [
+        {
+            "source": "bin/zinc",
+            "link": "bin/zinc"
+        }
+    ],
+    "labels": [
+        "dev"
+    ]
+}

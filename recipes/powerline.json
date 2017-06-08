@@ -1,0 +1,16 @@
+{
+    "kind": "package",
+    "name": "powerline",
+    "packages": ["powerline-status", "powerline-gitstatus"],
+    "packageManager": "python-pip",
+    "symlinks": [
+        {
+            "source": "fish-conf.zz-10-powerline.fish",
+            "link": "conf.d/zz-10-powerline.fish",
+            "linkRoot": "fish_config"
+        }
+    ],    
+    "labels": [
+        "glen"
+    ]
+}

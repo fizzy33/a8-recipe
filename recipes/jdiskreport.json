@@ -1,0 +1,19 @@
+{
+    "kind": "download",
+    "name": "jdiskreport",
+    "downloads": {
+        "any": {
+            "url": "http://www.jgoodies.com/download/jdiskreport/jdiskreport-1_4_1.zip",
+            "md5": "9380a6ba68bd21e0f09b58297eb5a44a"
+        }
+    },
+    "version": "1.4.1",
+    "labels": []
+    "symlinks": [
+        {
+            "source": "jdiskreport.py",
+            "link": "bin/jdiskreport",
+            "exec": true
+        }
+    ],
+}

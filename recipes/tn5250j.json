@@ -1,0 +1,19 @@
+{
+    "kind": "download",
+    "name": "tn5250j",
+    "downloads": {
+        "any": {
+            "url": "http://heanet.dl.sourceforge.net/project/tn5250j/tn5250j/0.7.6/tn5250j-0.7.6-full-bin.zip",
+            "md5": "308c10be77b2313bdf961a2e38737cb2"
+        }
+    },
+    "symlinks": [
+        {
+            "source": "tn5250j.py",
+            "link": "bin/tn5250j",
+            "exec": true
+        }
+    ],
+    "version": "0.7.6",
+    "labels": []
+}

@@ -1,0 +1,18 @@
+{
+    "kind": "download",
+    "name": "ant",
+    "downloads": {
+        "any": {
+            "url": "http://apache.mesi.com.ar//ant/binaries/apache-ant-1.10.0-bin.tar.bz2",
+            "md5": "ebb52b9556180c09d80a42ed7a0b519b"
+        }
+    },
+    "version": "1.9.10",
+    "symlinks": [
+        {
+            "source": "bin/ant",
+            "link": "bin/ant"
+        }
+    ],
+    "labels": []
+}

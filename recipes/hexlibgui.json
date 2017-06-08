@@ -1,0 +1,18 @@
+{
+    "kind": "download",
+    "name": "hexlibgui",
+    "downloads": {
+        "any": {
+            "url": "http://downloads.sourceforge.net/project/hexedit-lib/V0.51/HexLib.7z",
+            "md5": "590e0229029a421a312e19701cf31b83"
+        }
+    },
+    "version": "0.51",
+    "symlinks": [
+        {
+            "source": "hexlibgui.py",
+            "link": "bin/hexlibgui"
+        }
+    ],
+    "labels": []
+}

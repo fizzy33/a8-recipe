@@ -1,0 +1,18 @@
+{
+    "kind": "download",
+    "name": "antlrworks2",
+    "downloads": {
+        "any": {
+            "url": "http://tunnelvisionlabs.com/downloads/antlr/2013-07-21-antlrworks-2.1.zip",
+            "md5": "1460c73704e1bda9182b7279f9ca9b6e"
+        }
+    },
+    "version": "2.1",
+    "symlinks": [
+        {
+            "source": "bin/antlrworks2",
+            "link": "bin/antlrworks2",
+            "exec": true            
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "kind": "noop",
+    "name": "iterm2_shell_integration",
+    "symlinks": [
+        {
+            "source": "iterm2_shell_integration.fish",
+            "link": "conf.d/zz-90-iterm2_shell_integration.fish",
+            "linkRoot": "fish_config"
+        }
+    ],    
+    "labels": [
+        "core_mac"
+    ]
+}

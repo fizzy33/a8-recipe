@@ -1,0 +1,22 @@
+{
+    "kind": "download",
+    "name": "jgit",
+    "downloads": {
+        "any": {
+            "url": "https://repo.eclipse.org/content/groups/releases//org/eclipse/jgit/org.eclipse.jgit.pgm/4.6.0.201612231935-r/org.eclipse.jgit.pgm-4.6.0.201612231935-r.sh",
+            "md5": "fa27c0b6b824e78f5c9eb38315a31595"
+        }
+    },
+    "version": "4.6.0.201612231935-r",
+    "symlinks": [
+        {
+            "source": "org.eclipse.jgit.pgm-4.6.0.201612231935-r.sh",
+            "link": "bin/jgit",
+            "exec": true
+        }
+    ],
+    "extract": false,
+    "labels": [
+        "dev"
+    ]
+}

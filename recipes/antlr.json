@@ -1,0 +1,18 @@
+{
+    "kind": "download",
+    "name": "antlr",
+    "downloads": {
+        "any": {
+            "url": "http://www.antlr.org/download/antlr-4.5.3-complete.jar",
+            "md5": "f32f7ae157378d1a9785ce26e62ed770"
+        }
+    },
+    "version": "4.5.3",
+    "symlinks": [
+        {
+            "source": "antlr-4.5.3-complete.jar",
+            "link": "bin/antlr-complete.jar"
+        }
+    ],
+    "extract": false,
+}

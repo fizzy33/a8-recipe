@@ -1,0 +1,20 @@
+{
+    "kind": "download",
+    "name": "gradle",
+    "downloads": {
+        "any": {
+            "url": "https://services.gradle.org/distributions/gradle-3.5-bin.zip",
+            "md5": "d5d6dae88daace96e946168dd176aedf"
+        }
+    },
+    "version": "3.5",
+    "symlinks": [
+        {
+            "source": "bin/gradle",
+            "link": "bin/gradle"
+        }
+    ],
+    "labels": [
+        "dev"
+    ]
+}
