@@ -5,7 +5,7 @@ import subprocess
 import sys
 import xml.etree.ElementTree
 
-mavenSettingsFile = os.path.join(expanduser("~"), ".m2/settings.xml")
+mavenSettingsFile = os.path.join(os.path.expanduser("~"), ".m2/settings.xml")
 mavenSettings = xml.etree.ElementTree.parse(mavenSettingsFile).getroot().find('servers').find('server')
 
 version="2.0.52-1611141017"
