@@ -1,7 +1,7 @@
 {
     "kind": "git",
     "name": "a8-scripts",
-    "gitUrl": "https://gitlab.accur8.io/a8/dev_scripts.git",
+    "gitUrl": "https://github.com/fizzy33/a8-scripts.git",
     "symlinks": [
         {
             "source": "fish-conf.a8-tools.fish",
