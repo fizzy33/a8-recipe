@@ -8,7 +8,7 @@ import xml.etree.ElementTree
 mavenSettingsFile = os.path.join(os.path.expanduser("~"), ".m2/settings.xml")
 mavenSettings = xml.etree.ElementTree.parse(mavenSettingsFile).getroot().find('servers').find('server')
 
-version="2.6.0-1706092007"
+version="2.6.0-1706110734"
 
 def dir(*path_parts):
   return os.path.realpath(os.path.join(*path_parts))
