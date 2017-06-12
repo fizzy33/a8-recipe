@@ -1,0 +1,12 @@
+{
+    "kind": "git",
+    "name": "rsub",
+    "gitUrl": "https://github.com/fizzy33/rsub.git",
+    "symlinks": [
+        {
+            "source": "bin/rsub",
+            "link": "bin/rsub"
+        }
+    ],    
+    "labels": []
+}
