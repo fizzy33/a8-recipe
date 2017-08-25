@@ -11,7 +11,11 @@
     "symlinks": [
         {
             "source": "bin/sbt",
-            "link": "bin/sbt"
+            "link": "bin/sbtx"
+        },{
+            "source": "sbt",
+            "link": "bin/sbt",
+            "exec": true
         }
     ],
     "labels": [

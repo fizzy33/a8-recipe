@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+if [ ! -d "./.git" ]; then
+  echo aborting not at the git root
+  exit 1
+elif [ ! -f "./build.sbt" ]; then
+  echo aborting no build.sbt found
+  exit 1
+else
+  TITLE=$(basename $(pwd))
+  echo using title of $TITLE
+  tabset "sbt $TITLE" --color $TITLE 
+  sbtx "$@"
+  tabset " " --color white
+  exit 0
+fi
+
