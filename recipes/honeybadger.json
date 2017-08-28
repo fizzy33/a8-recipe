@@ -2,8 +2,8 @@
   "kind": "mavenrepo",
   "name": "honeybadger",
   "groupId": "a8",
-  "artifactId": "a8-honeybadger",
-  "version": "latest",
+  "artifactId": "a8-honeybadger_2.12",
+  "version": "0.2.0-170828183759",
   "symlinks":[
     {
       "source": "bin/honeybadger-build",
@@ -20,9 +20,6 @@
     },{
       "source": "bin/honeybadger-local-build",
       "link": "bin/honeybadger-local-build"
-    },{
-      "source": "bin/honeybadger-release-version-number",
-      "link": "bin/honeybadger-release-version-number"
     }
   ]
 }
