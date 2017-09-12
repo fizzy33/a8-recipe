@@ -3,7 +3,7 @@
   "name": "honeybadger",
   "groupId": "a8",
   "artifactId": "a8-honeybadger_2.12",
-  "version": "0.2.0-170828183759",
+  "version": "0.1.0-20170912_1146_master",
   "symlinks":[
     {
       "source": "bin/honeybadger-build",
