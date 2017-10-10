@@ -4,15 +4,15 @@
     "downloads": {
         "linux_64": {
             "url": "https://github.com/HaxeFoundation/haxe/releases/download/3.4.4/haxe-3.4.4-linux64.tar.gz",
-            "md5": "11C3F5C4EEECEDA394E875E4A74E991D"
+            "md5": "ea16cfddbd5c079e9239fc63147600dd"
         },
         "macosx": {
             "url": "https://github.com/HaxeFoundation/haxe/releases/download/3.4.4/haxe-3.4.4-osx.tar.gz",
-            "md5": "C445F48F62C6F6EE80C7705A0C118E2D"
+            "md5": "490313a761f974f4906eb6e95c613b05"
         }
         "windows": {
             "url": "https://github.com/HaxeFoundation/haxe/releases/download/3.4.4/haxe-3.4.4-win.zip",
-            "md5": "D1033AFC456121BC6CE178D537EBC3F3"
+            "md5": "a76a4f94d9f131791d2b5d46bfdc3377"
         }
     },
     "version": "3.4.4",
