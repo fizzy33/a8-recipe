@@ -9,5 +9,5 @@
             "linkRoot": "fish_config"
         }
     ],    
-    "labels": []
+    "labels": ["core"]
 }
