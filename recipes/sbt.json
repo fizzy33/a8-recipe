@@ -1,24 +1,12 @@
 {
-    "kind": "download",
+    "kind": "git",
     "name": "sbt",
-    "downloads": {
-        "any": {
-            "url": "https://dl.bintray.com/sbt/native-packages/sbt/0.13.15/sbt-0.13.15.tgz",
-            "md5": "12ab1ee1f696ed2a1a2128be79f0d7dd"
-        }
-    },
-    "version": "0.13.15",
+    "gitUrl": "https://github.com/paulp/sbt-extras",
     "symlinks": [
         {
-            "source": "bin/sbt",
-            "link": "bin/sbt"
-        },{
             "source": "sbt",
-            "link": "bin/sbtx",
-            "exec": true
+            "link": "bin/sbt"
         }
-    ],
-    "labels": [
-        "dev"
-    ]
+    ],    
+    "labels": ["core"]
 }

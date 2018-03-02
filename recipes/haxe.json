@@ -23,8 +23,7 @@
         },{
             "source": "haxelib",
             "link": "bin/haxelib"
-        },
-        {
+        },{
             "source": "haxe.conf.fish",
             "link": "conf.d/haxe.fish",
             "linkRoot": "fish_config"
