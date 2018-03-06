@@ -4,7 +4,7 @@
     "gitUrl": "https://github.com/paulp/sbt-extras",
     "symlinks": [
         {
-            "source": "sbt",
+            "source": "bin/sbt",
             "link": "bin/sbt"
         }
     ],    
