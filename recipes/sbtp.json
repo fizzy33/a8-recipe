@@ -1,0 +1,12 @@
+{
+    "kind": "git",
+    "name": "sbtp",
+    "gitUrl": "https://github.com/NeQuissimus/sbt-extras",
+    "symlinks": [
+        {
+            "source": "sbt",
+            "link": "bin/sbtp"
+        }
+    ],    
+    "labels": ["dev"]
+}
