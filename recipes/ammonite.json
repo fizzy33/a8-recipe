@@ -3,14 +3,14 @@
     "name": "ammonite",
     "downloads": {
         "any": {
-            "url": "https://github.com/lihaoyi/Ammonite/releases/download/1.0.1/2.12-1.0.1",
-            "md5": "da65696f5abce5e54b5444ceb31bea38"
+            "url": "https://github.com/lihaoyi/Ammonite/releases/download/1.0.5/2.12-1.0.5",
+            "md5": "d1ccd537f7d0a6a99d2c7acc45cc878d"
         }
     },
-    "version": "1.0.1",
+    "version": "1.0.5",
     "symlinks": [
         {
-            "source": "2.12-1.0.1",
+            "source": "2.12-1.0.5",
             "link": "bin/amm",
             "exec": true
         }
