@@ -3,8 +3,8 @@
     "name": "ant",
     "downloads": {
         "any": {
-            "url": "http://apache.mesi.com.ar//ant/binaries/apache-ant-1.10.0-bin.tar.bz2",
-            "md5": "ebb52b9556180c09d80a42ed7a0b519b"
+            "url": "http://apache.claz.org//ant/binaries/apache-ant-1.10.3-bin.tar.bz2",
+            "md5": "35df2cad868ad0017fdf499739b1f099d8c34fda"
         }
     },
     "version": "1.9.10",
