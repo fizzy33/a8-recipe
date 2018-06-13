@@ -4,7 +4,7 @@
     "downloads": {
         "any": {
             "url": "http://apache.claz.org//ant/binaries/apache-ant-1.10.3-bin.tar.bz2",
-            "md5": "35df2cad868ad0017fdf499739b1f099d8c34fda"
+            "md5": "60a3f31f7d6a71d822c9af291694c25d"
         }
     },
     "version": "1.9.10",
