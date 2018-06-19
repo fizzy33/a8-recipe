@@ -3,11 +3,11 @@
     "name": "maven",
     "downloads": {
         "any": {
-            "url": "http://mirrors.ibiblio.org/apache/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.tar.gz",
-            "md5": "948110de4aab290033c23bf4894f7d9a"
+            "url": "http://mirrors.ibiblio.org/apache/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz",
+            "md5": "51025855d5a7456fc1a67666fbef29de"
         }
     },
-    "version": "3.5.2",
+    "version": "3.5.3",
     "symlinks": [
         {
             "source": "bin/mvn",
