@@ -3,11 +3,11 @@
     "name": "sbt",
     "downloads": {
         "any": {
-            "url": "https://github.com/sbt/sbt/releases/download/v1.1.0/sbt-1.1.0.tgz",
-            "md5": "0a5063cb9d27f84b3a3a4d4fa578c492"
+            "url": "https://github.com/sbt/sbt/releases/download/v1.2.6/sbt-1.2.6.tgz",
+            "md5": "06dd8ec5182f2f88157d72c3b4617938"
         }
     },
-    "version": "1.1.0",
+    "version": "1.2.6",
     "symlinks": [
         {
             "source": "bin/sbt",
