@@ -3,19 +3,19 @@
     "name": "haxe",
     "downloads": {
         "linux_64": {
-            "url": "https://github.com/HaxeFoundation/haxe/releases/download/3.4.7/haxe-3.4.7-linux64.tar.gz",
-            "md5": "f487ec23a4824217353b325d076ba787"
+            "url": "https://github.com/HaxeFoundation/haxe/releases/download/4.0.3/haxe-4.0.3-linux64.tar.gz/",
+            "md5": "d4fa3de91d4945b74a95a28fa086350c"
         },
         "macosx": {
-            "url": "https://github.com/HaxeFoundation/haxe/releases/download/3.4.7/haxe-3.4.7-osx.tar.gz",
-            "md5": "9f5ed42665010f9cbe88b2a309de79d2"
+            "url": "https://github.com/HaxeFoundation/haxe/releases/download/4.0.3/haxe-4.0.3-osx.tar.gz",
+            "md5": "6dc5c5d890717a52d8394054d6fd9bfd"
         },
         "windows": {
-            "url": "https://github.com/HaxeFoundation/haxe/releases/download/3.4.7/haxe-3.4.7-win.zip",
-            "md5": "c80ae3c9eb8a37577cf261ccf554736c"
+            "url": "https://github.com/HaxeFoundation/haxe/releases/download/4.0.3/haxe-4.0.3-win64.zip/",
+            "md5": "49f36fcb3aa95f45b4d66ce2ad1ba940"
         }
     },
-    "version": "3.4.7",
+    "version": "4.0.3",
     "symlinks": [
         {
             "source": "haxe",
