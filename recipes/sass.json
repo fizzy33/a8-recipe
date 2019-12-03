@@ -20,6 +20,10 @@
         {
             "source": "sass",
             "link": "bin/sass"
+        },
+        {
+            "source": "dart-sass",
+            "link": "bin/dart-sass"
         }
     ],
     "labels": [
