@@ -24,6 +24,10 @@
         {
             "source": "dart-sass",
             "link": "bin/dart-sass"
+        },{
+            "source": "sass.conf.fish",
+            "link": "conf.d/sass.fish",
+            "linkRoot": "fish_config"
         }
     ],
     "labels": [
