@@ -1,0 +1,28 @@
+{
+    "kind": "download",
+    "name": "sass",
+    "downloads": {
+        "linux_64": {
+            "url": "https://github.com/sass/dart-sass/releases/download/1.23.7/dart-sass-1.23.7-linux-x64.tar.gz",
+            "md5": "61ba5af88de634090cb0834032061da8"
+        },
+        "macosx": {
+            "url": "https://github.com/sass/dart-sass/releases/download/1.23.7/dart-sass-1.23.7-macos-x64.tar.gz",
+            "md5": "d5c9922310d0c351ef5ef530608878c0"
+        },
+        "windows": {
+            "url": "https://github.com/sass/dart-sass/releases/download/1.23.7/dart-sass-1.23.7-windows-x64.zip",
+            "md5": "146b37b63d5b71b60f8885335808d65d"
+        }
+    },
+    "version": "1.23.7",
+    "symlinks": [
+        {
+            "source": "sass",
+            "link": "bin/sass"
+        }
+    ],
+    "labels": [
+        "dev"
+    ]
+}
