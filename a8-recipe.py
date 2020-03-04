@@ -29,7 +29,7 @@ args = (
     script_dir + "/coursier",
     "launch",
     "-r", 
-    "https://" + username + ":" + password + "@accur8.artifactoryonline.com/accur8/all/",
+    "https://" + username + ":" + password + "@accur8.jfrog.io/accur8/all/",
     "-M", 
     "a8.recipe.RecipeMain",
     "a8:a8-recipe:" + version,
