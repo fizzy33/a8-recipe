@@ -4,7 +4,7 @@
       <!--This sends everything else to /all -->
       <id>artifactory</id>
       <mirrorOf>*</mirrorOf>
-      <url>https://accur8.artifactoryonline.com/accur8/all/</url>
+      <url>https://accur8.jfrog.io/accur8/all/</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -17,8 +17,8 @@
     <profile>
       <id>artifactory</id>
       <properties>
-        <artifactory-release-url>https://accur8.artifactoryonline.com/accur8/libs-releases-local/</artifactory-release-url>
-        <artifactory-snapshot-url>https://accur8.artifactoryonline.com/accur8/libs-snapshots-local/</artifactory-snapshot-url>
+        <artifactory-release-url>https://accur8.jfrog.io/accur8/libs-releases-local/</artifactory-release-url>
+        <artifactory-snapshot-url>https://accur8.jfrog.io/accur8/libs-snapshots-local/</artifactory-snapshot-url>
       </properties>
       <!--Enable snapshots for the built in central repo to direct -->
       <!--all requests to artifactory via the mirror -->
