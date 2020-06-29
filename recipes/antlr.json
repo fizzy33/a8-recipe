@@ -3,14 +3,14 @@
     "name": "antlr",
     "downloads": {
         "any": {
-            "url": "http://www.antlr.org/download/antlr-4.5.3-complete.jar",
-            "md5": "f32f7ae157378d1a9785ce26e62ed770"
+            "url": "https://www.antlr.org/download/antlr-4.8-complete.jar",
+            "md5": "2016a2a6a10f0dd18eaef8b15c9df779"
         }
     },
-    "version": "4.5.3",
+    "version": "4.8",
     "symlinks": [
         {
-            "source": "antlr-4.5.3-complete.jar",
+            "source": "antlr-4.8-complete.jar",
             "link": "bin/antlr-complete.jar"
         }
     ],
