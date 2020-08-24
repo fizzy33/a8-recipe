@@ -4,7 +4,7 @@
     "downloads": {
         "any": {
             "url": "https://downloads.lightbend.com/scala/2.12.12/scala-2.12.12.tgz",
-            "md5": "68ba79e2172fc1ab8120fe6c615a2713"
+            "md5": "112d439b6a490a70dabb6205a095535b"
         }
     },
     "version": "2.12.12",
