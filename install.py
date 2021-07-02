@@ -7,12 +7,12 @@ import subprocess
 
 def makedirs(dir):
   if not os.path.exists(dir):
-    print "mkdir " + dir
+    print("mkdir " + dir)
     os.makedirs(dir)
 
 
 def run(args):
-  print "running " + str(args)
+  print("running " + str(args))
   subprocess.call(args)
 
 
