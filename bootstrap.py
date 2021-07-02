@@ -7,7 +7,7 @@ import subprocess
 
 def makedirs(d):
   if not os.path.exists(d):
-    print "mkdir " + d
+    print("mkdir " + d)
     os.makedirs(d)
 
 
@@ -16,7 +16,7 @@ def git_clone_a8_recipes():
 
 
 def run(args):
-  print "running " + str(args)
+  print("running " + str(args))
   subprocess.call(args)
 
 
