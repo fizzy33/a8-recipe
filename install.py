@@ -34,7 +34,7 @@ def main():
   # symlink the a8-recipe.py to the bin folder
   if os.path.exists(a8_recipe_exec):
     os.remove(a8_recipe_exec)
-  print "creating symlink " + a8_recipe_exec
+  print("creating symlink " + a8_recipe_exec)
   os.symlink("../packages/a8-recipe/a8-recipe.py", a8_recipe_exec)
 
   # run the a8-recipe init
