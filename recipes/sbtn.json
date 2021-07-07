@@ -1,0 +1,26 @@
+{
+    "kind": "download",
+    "name": "sbtn",
+    "downloads": {
+        "linux_64": {
+            "url": "https://github.com/sbt/sbtn-dist/releases/download/v1.4.7/sbtn-x86_64-pc-linux-1.4.7.tar.gz",
+            "md5": "e6ba955d89610e5bc28f8e73bc8dff86"
+        },
+        "macosx": {
+            "url": "https://github.com/sbt/sbtn-dist/releases/download/v1.4.7/sbtn-x86_64-apple-darwin-1.4.7.tar.gz",
+            "md5": "d6ca3a2fd3b4f70d6515090d38fa0586"
+        },
+        "windows": {
+            "url": "https://github.com/sbt/sbtn-dist/releases/download/v1.4.7/sbtn-x86_64-pc-win32-1.4.7.zip",
+            "md5": "0816158df66b5d6da4db027e90051650"
+        }
+    },
+    "version": "1.4.7",
+    "symlinks": [
+        {
+            "source": "bin/sbtn",
+            "link": "bin/sbtn"
+        }
+    ],    
+    "labels": ["dev"]
+}

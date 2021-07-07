@@ -9,7 +9,7 @@
         "macosx": {
             "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip",
             "md5": "b0c038bd139b9ecaad8fd321070c1651"
-        }
+        },
         "windows": {
             "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip",
             "md5": "4104470d43ddf2a195e8869deef0aa69"
