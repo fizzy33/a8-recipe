@@ -1,7 +1,7 @@
 {
     "kind": "git",
     "name": "glen_shared_profile",
-    "gitUrl": "git@gitlab.com:accur8software/glen/shared_profile.git",
+    "gitUrl": "git@uperbee.accur8.zero:3000:glen/shared_profile.git",
     "labels": [
         "glen"
     ]
